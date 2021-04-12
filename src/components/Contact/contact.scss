@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+.contact {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../images/pic7.jpg') center/cover no-repeat fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.contact-head {
+    margin-top: 70px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.inner {
+    font-size: 40px;
+}
+
+.lin {
+    text-decoration: none;
+}
+
+.lin:hover {
+    color: #fff;
+}
+
+.fab, .fas {
+    margin-right: 20px;
+}
+
+.ways {
+    padding: 45px 120px;
+    margin-top: 150px;
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.ways.f {
+    background: #4267B2;
+}
+
+.ways.in {
+    background:#2867B2;   
+}
+
+.ways.i {
+    background: linear-gradient(to bottom left, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+
+.ways.g {
+    background: black;   
+}
+
+.ways.m {
+    background: linear-gradient(to bottom left, #D44638, #B23121, #C6C6C6);
+
+}
+
+@media screen and (max-width: 960px) {
+    .ways {
+        padding: 35px 35px
+    }
+}

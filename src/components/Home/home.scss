@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
+.home {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../../images/pic1.jpg') center/cover no-repeat fixed;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.contain {
+    margin-top: 100px;
+}
+
+.mypic {
+    height: 570px;
+    border-radius: 300px;
+    margin-bottom: 50px;
+}
+
+.intro {
+    font-size: 50px;
+}
+
+.info {
+    font-size: 27px;
+}
+
+.bottom {
+    margin-bottom: 50px;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,50px,0)
+    }
+
+    to {
+        transform: translate3d(0,0px,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+}
+
+
+@media screen and (max-width: 960px) {
+
+
+    .intro {
+        font-size: 50px;
+    }
+    
+    .info {
+        font-size: 22px;
+        padding: 0 11px;
+    }
+
+    .contain {
+        margin-top: 100px;
+    }
+    
+    .mypic {
+        height: 203px;
+        width: 213px;
+        border-radius: 100px;
+        margin-right: -8px;
+    }
+    
+}
